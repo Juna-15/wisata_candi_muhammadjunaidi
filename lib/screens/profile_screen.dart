@@ -139,19 +139,6 @@ class _ProfileScreenState extends State<ProfileScreen> {
           ),
         ],
       ),
-
-      bottomNavigationBar: BottomNavigationBar(
-        type: BottomNavigationBarType.fixed,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.search), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite), label: ''),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-        ],
-        currentIndex: 3,
-        selectedItemColor: Colors.deepPurple,
-        unselectedItemColor: Colors.grey,
-      ),
     );
   }
 }
