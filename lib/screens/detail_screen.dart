@@ -58,7 +58,7 @@ class DetailScreen extends StatelessWidget {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  // Info atas (nama candi dan tombol favorit)
+                  // Info atas (nama candi dan tombol favorit.)
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [

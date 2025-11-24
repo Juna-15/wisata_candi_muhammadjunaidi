@@ -69,7 +69,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      //   TODO: 2. Buat properti body berupa widget yang ditampilkan
+      //   TODO: 2 Buat properti body berupa widget yang ditampilkan
       body: _children[
       _currentIndex
       ],
